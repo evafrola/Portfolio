@@ -2,8 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'colorPrincipal' : '#aea4bf',
+        'textoOscuro' : '#3b252c'
+      },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
