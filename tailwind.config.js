@@ -6,7 +6,9 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'colorPrincipal' : '#aea4bf',
-        'textoOscuro' : '#3b252c'
+        'textoOscuro' : '#3b252c',
+        'textoClaro' : '#e3e4db',
+        'principalOscuro' : '#8f6593'
       },
   },
   plugins: [
