@@ -9,60 +9,30 @@
     background-repeat: no-repeat;
 }
 
-/* .rueda-1, 
-.rueda-2,
-.rueda-3,
-.rueda-4,
-.rueda-5,
-.rueda-6 {
-    position: absolute;
-}
-
 .rueda-1,
-.rueda-2,
-.rueda-5,
-.rueda-6 {
-    z-index: 1;
-}
-
-.rueda-1,
-.rueda-3 {
-    width: calc(100vw - 110rem);
-}
-
-.rueda-1 {
-    top: 14rem;
-    left: 19rem;
-}
-
 .rueda-2 {
-    width: calc(100vw - 113rem);
-    bottom: 30rem;
-    left: 41rem;
+    background-image: url("../img/RuedaSolida.png");
+    background-repeat: no-repeat;
 }
 
-.rueda-3 {
-    top: 26.5rem;
-    left: 46rem;
+.rueda-3,
+.rueda-4 {
+    background-image: url("../img/RuedaBorde2.png");
+    background-repeat: no-repeat;
 }
 
-.rueda-4{
-    width: calc(100vw - 105rem);
-    top: 35rem;
-    left: 2.5rem;
-}
-
-.rueda-5{
-    width: calc(100vw - 114rem);
-    top: 34.5rem;
-    left: 23.5rem;
+.rueda-5 {
+    background-image: url("../img/RuedaSolida2.png");
 }
 
 .rueda-6 {
-    width: calc(100vw - 115rem);
-    top: 31rem;
-    left: 20.5rem;
-} */
+    background-image: url("../img/RuedaBorde.png");
+}
+
+.rueda-1  {
+    width: calc(100% - 50rem);
+    height: calc(100vw - 110.3rem);
+}
 
 #welcome-section {
     background-image: url("../img/FondoTotal.png");
