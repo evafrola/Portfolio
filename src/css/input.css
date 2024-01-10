@@ -4,35 +4,6 @@
 @tailwind utilities;
 
 /*Estilos del fondo de la sección de bienvenida*/
-.bg-animation {
-    background-image: url("../img/Fondo.png");
-    background-repeat: no-repeat;
-}
-
-.rueda-1,
-.rueda-2 {
-    background-image: url("../img/RuedaSolida.png");
-    background-repeat: no-repeat;
-}
-
-.rueda-3,
-.rueda-4 {
-    background-image: url("../img/RuedaBorde2.png");
-    background-repeat: no-repeat;
-}
-
-.rueda-5 {
-    background-image: url("../img/RuedaSolida2.png");
-}
-
-.rueda-6 {
-    background-image: url("../img/RuedaBorde.png");
-}
-
-.rueda-1  {
-    width: calc(100% - 50rem);
-    height: calc(100vw - 110.3rem);
-}
 
 #welcome-section {
     background-image: url("../img/FondoTotal.png");
