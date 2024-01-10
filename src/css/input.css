@@ -5,9 +5,8 @@
 
 /*Estilos del fondo de la sección de bienvenida*/
 
-#welcome-section {
-    background-image: url("../img/FondoTotal.png");
-    background-repeat: no-repeat;
+body {
+    background-image: url('../img/FondoTotal.png');
     background-size: cover;
 }
 /*Fin*/
