@@ -591,10 +591,6 @@ video {
   margin-right: 1rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -641,6 +637,26 @@ video {
 
 .animate-fade-down {
   animation: fade-down 1s both;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 1s both;
+}
+
+.resize {
+  resize: both;
 }
 
 .flex-col {
@@ -694,6 +710,10 @@ video {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-middle {
@@ -753,12 +773,24 @@ video {
   animation-direction: normal;
 }
 
+.animate-alternate-reverse {
+  animation-direction: alternate-reverse;
+}
+
 .animate-fill-forwards {
   animation-fill-mode: forwards;
 }
 
+.animate-fill-both {
+  animation-fill-mode: both;
+}
+
 .animate-once {
   animation-iteration-count: 1;
+}
+
+.animate-ease-linear {
+  animation-timing-function: linear;
 }
 
 .animate-ease-in {
@@ -783,6 +815,22 @@ body {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:decoration-principalOscuro:hover {
+  text-decoration-color: #8f6593;
+}
+
+.hover\:decoration-1:hover {
+  text-decoration-thickness: 1px;
+}
+
+.hover\:decoration-2:hover {
+  text-decoration-thickness: 2px;
 }
 
 @media (max-width: 1330px) {
