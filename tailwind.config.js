@@ -7,6 +7,7 @@ module.exports = {
         current: 'currentColor',
         'violetaClaro' : '#aea4bf',
         'marronOscuro' : '#3b252c',
+        'marronTransparencia' : '#3b252c9a',
         'silverClaro' : '#e3e4db',
         'violetaOscuro' : '#8f6593',
         'purpuraClaro' : '#D8B4FE',
