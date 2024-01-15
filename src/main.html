@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Eva Frola</title>
 </head>
 
@@ -85,7 +86,7 @@
 
         <section id="projects-technologies" class="mx-9 my-16 max-[540px]:my-5">
 
-            <article id="technologies" class="text-center my-28 bg-violetaTransparencia py-6 max-[540px]:my-8">
+            <article data-aos="fade-up" id="technologies" class="text-center my-28 bg-violetaTransparencia py-6 max-[540px]:my-8">
                 <h1 class="text-marronOscuro font-bold text-5xl max-[540px]:text-4xl">Tecnologías que mas utilizo:</h1>
                 <div class="flex flex-wrap justify-center items-center mt-9">
                     <img class="mx-4" src="img/icon/icons8-html-5-48.svg" alt="Logo HTML">
@@ -100,7 +101,7 @@
                 </div>
             </article>
 
-            <article id="projects" class="bg-violetaTransparencia text-center my-28 p-5 max-[412px]:px-0 max-[430px]:py-1">
+            <article data-aos="fade-up" id="projects" class="bg-violetaTransparencia text-center my-28 p-5 max-[412px]:px-0 max-[430px]:py-1">
                 <h1 class="text-marronOscuro font-bold text-5xl">Proyectos:</h1>
                 <div class="flex flex-wrap justify-center items-center max-[912px]:flex-col">
                     <div class="w-96 p-5 mx-8 my-10 bg-silverOscuro rounded-md font-bold text-marronOscuro max-[540px]:mx-1 max-[430px]:w-60">
@@ -144,7 +145,7 @@
             </article>
         </section>
 
-        <section id="contact" class="mx-9 pb-40 text-violetaClaro text-center flex flex-col items-center">
+        <section data-aos="fade-up" id="contact" class="mx-9 pb-40 text-violetaClaro text-center flex flex-col items-center">
             <h1 class="text-5xl font-bold pt-14 pb-5">Contacto</h1>
             <p class="text-2xl pb-5 font-medium bg-marronTransparencia w-max max-[540px]:w-80">¡No dudes en ponerte en contacto conmigo!</p>
             <div class="pb-14">
@@ -182,6 +183,10 @@
         <p>Icons by <a href="https://iconos8.es/" target="_blank" class="hover:underline hover:decoration-violetaOscuro">iconos8</a></p>
         <p>©Todos los derechos reservados</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({
+        once: true
+    });</script>
     <script src="js/init.js"></script>
 </body>
 

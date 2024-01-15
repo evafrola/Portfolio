@@ -616,10 +616,6 @@ video {
   margin-bottom: 7rem;
 }
 
-.ml-28 {
-  margin-left: 7rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -757,7 +753,7 @@ video {
   border-radius: 0.375rem;
 }
 
-.bg-\[\#3b252c9a\] {
+.bg-marronTransparencia {
   background-color: #3b252c9a;
 }
 
@@ -778,10 +774,6 @@ video {
 
 .bg-violetaTransparencia {
   background-color: #aea4bfde;
-}
-
-.bg-marronTransparencia {
-  background-color: #3b252c9a;
 }
 
 .bg-contain {
@@ -1236,9 +1228,9 @@ main {
 }
 
 @media (max-width: 540px) {
-  .max-\[540px\]\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .max-\[540px\]\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
 
   .max-\[540px\]\:my-5 {
@@ -1246,27 +1238,13 @@ main {
     margin-bottom: 1.25rem;
   }
 
-  .max-\[540px\]\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
-  .max-\[540px\]\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .max-\[540px\]\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+  .max-\[540px\]\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .max-\[540px\]\:w-80 {
     width: 20rem;
-  }
-
-  .max-\[540px\]\:flex-wrap {
-    flex-wrap: wrap;
   }
 
   .max-\[540px\]\:gap-28 {
@@ -1275,16 +1253,6 @@ main {
 
   .max-\[540px\]\:p-0 {
     padding: 0px;
-  }
-
-  .max-\[540px\]\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .max-\[540px\]\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .max-\[540px\]\:px-1 {
@@ -1297,14 +1265,14 @@ main {
     padding-bottom: 0.25rem;
   }
 
-  .max-\[540px\]\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .max-\[540px\]\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .max-\[540px\]\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -1325,52 +1293,15 @@ main {
 }
 
 @media (max-width: 412px) {
-  .max-\[412px\]\:w-60 {
-    width: 15rem;
-  }
-
   .max-\[412px\]\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
-
-  .max-\[412px\]\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
-  .max-\[412px\]\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (max-width: 320px) {
-  .max-\[320px\]\:w-60 {
-    width: 15rem;
-  }
-
-  .max-\[320px\]\:w-28 {
-    width: 7rem;
-  }
-
   .max-\[320px\]\:p-0 {
     padding: 0px;
-  }
-
-  .max-\[320px\]\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .max-\[320px\]\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
-  .max-\[320px\]\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
 
