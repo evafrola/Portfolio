@@ -11,7 +11,10 @@ module.exports = {
         'violetaOscuro' : '#8f6593',
         'purpuraClaro' : '#D8B4FE',
         'silverOscuro' : '#cdcdcd',
-        'violetaTransparencia' : '#aea4bfde'
+        'violetaTransparencia' : '#aea4bfde',
+        'rojo' : '#92140c',
+        'azul' : '#29339b',
+        'blanco' : '#fffbfc'
       },
   },
   plugins: [

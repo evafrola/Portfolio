@@ -9,4 +9,8 @@ main {
     background-image: url('../img/FondoTotal.png');
     background-size: 100%;
 }
+
+#contact-link a {
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, #0000, rgba(0,0,0,0.4));
+}
 /*Fin*/
