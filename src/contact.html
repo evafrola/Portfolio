@@ -59,10 +59,10 @@
 
     </nav>
 
-    <main class="flex align-middle justify-center items-center gap-5">
+    <main class="flex align-middle justify-center items-center gap-5 h-screen">
         <div class="m-5 p-10">
             <h1 class="text-5xl text-violetaClaro font-bold p-4">¡Contactame!</h1>
-            <p class="text-3xl text-violetaClaro font-semibold p-4">Estoy abierta a nuevas posibilidades. Mi bandeja de entrada siempre esta abierta.</p>
+            <p class="text-3xl text-silverClaro font-semibold p-4 bg-marronTransparencia">Estoy abierta a nuevas posibilidades. Mi bandeja de entrada siempre esta abierta.</p>
             <ul id="contact-link" class="flex flex-wrap gap-5 p-10">
                 <li class="group">
                     <a href="https://github.com/evafrola" target="_blank"
@@ -82,20 +82,20 @@
                 </li>
             </ul>
         </div>
-        <form>
+        <form method="post">
             <label> Nombre:
-                <input type="text">
+                <input class="form-input" type="text" name="nombre" required>
             </label>
             <label> Correo:
-                <input type="email">
+                <input class="form-input" type="email" name="email" required>
             </label>
             <label> Asunto:
-                <input type="text"> 
+                <input class="form-input" type="text" name="asunto" required> 
             </label>
             <label>
-                <textarea></textarea>
+                <textarea class="form-textarea" name="mensaje" required></textarea>
             </label>
-            <button>Enviar</button>
+            <input type="submit" value="Enviar!">
         </form>
     </main>
 
